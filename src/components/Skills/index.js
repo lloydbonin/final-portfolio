@@ -48,33 +48,62 @@ export const Desc = styled.div`
 `;
 
 const SkillsContainer = styled.div`
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
-  gap: 30px;
   justify-content: center;
-`
+  gap: 20px;
+  padding: 20px;
+  border-radius: 16px;
+`;
 
 const Skill = styled.div`
-  width: 100%;
-  max-width: 500px;
-  background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  border-radius: 16px;
-  padding: 18px 36px;
-  @media (max-width: 768px) {
-    max-width: 400px;
-    padding: 10px 36px;
-  }
-  @media (max-width: 500px) {
-    max-width: 330px;
-    padding: 10px 36px;
+  position: relative; /* Enable pseudo-element positioning */
+  background: ${({ theme }) => theme.text_primary + 20};
+  color: ${({ theme }) => theme.text_secondary};
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &::before { /* Skill background pseudo-element */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: 000;
+    opacity: 0.3;
+    transition: all 0.2s ease-in-out;
   }
 
+  &:hover::before { /* Skill background hover effect */
+    opacity: 0.5;
+  }
 
-`
+  &::after { /* Skill border pseudo-element */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 4px); /* Extend border slightly beyond content */
+    height: calc(100% + 4px); /* Extend border slightly beyond content */
+    border-radius: inherit;
+    border: 2px solid ${({ theme }) => theme.text_primary};
+    opacity: 0.3;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover::after { /* Skill border hover effect */
+    opacity: 0.5;
+  }
+`;
 
 const SkillTitle = styled.h2`
   font-size: 28px;
@@ -119,29 +148,38 @@ const SkillImage = styled.img`
 `
 
 
+const SkillIcon = styled.i`
+  font-size: 20px;
+`;
+
 const Skills = () => {
+
+  const skills = [
+    "Python (Programming Language)",
+    "Data Management",
+    "Data Analysis",
+    "Data Visualization",
+    "Written & Verbal Communication",
+    "Analytical Skill",
+    "R (Programming Language)",
+    "Deep Learning",
+    "Statistical Analysis",
+    "Machine Learning"
+  ];
   return (
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Over the past four years, through various projects and continuous learning, I have developed the following expertise.
         </Desc>
-        {/* <SkillsContainer>
+        <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
-                    {item.name}
-                  </SkillItem>
-                ))}
-              </SkillList>
+            <Skill key={skill}>
+              <SkillIcon className="fas fa-star"> {/* Adjust the icon class as needed */}</SkillIcon>
+              {skill}
             </Skill>
           ))}
-
-        </SkillsContainer> */}
+        </SkillsContainer>
       </Wrapper>
     </Container>
   )

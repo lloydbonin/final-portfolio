@@ -85,22 +85,21 @@ const index = () => {
                 <Desc>
                     My education has been a journey of self-discovery and growth. My educational details are as follows.
                 </Desc>
-                {/* <TimelineSection>
+                <TimelineSection>
                     <Timeline>
                         {education.map((education,index) => (
                             <TimelineItem >
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <EducationCard education={education}/>
                                 </TimelineContent>
-                                <TimelineSeparator>
+                                {/* <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
                                     {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
-                                </TimelineSeparator>
+                                </TimelineSeparator> */}
                             </TimelineItem>
                         ))}
                     </Timeline>
-
-                </TimelineSection> */}
+                </TimelineSection>
             </Wrapper>
         </Container>
     )
