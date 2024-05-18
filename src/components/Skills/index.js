@@ -164,7 +164,8 @@ const Skills = () => {
     "R (Programming Language)",
     "Deep Learning",
     "Statistical Analysis",
-    "Machine Learning"
+    "Machine Learning",
+    "Natural Language Processing (NLP)"
   ];
   return (
     <Container id="skills">

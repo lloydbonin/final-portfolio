@@ -51,7 +51,7 @@ margin-top: 20px;
 `;
 
 const Desc = styled.div`
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};
@@ -83,7 +83,7 @@ const index = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    My education has been a journey of self-discovery and growth. My educational details are as follows.
+                    My educational journey has been transformative, marked by self-discovery and continuous growth. Here are the details of my educational background.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
