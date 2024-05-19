@@ -40,7 +40,7 @@ export const NavLogo = styled(LinkR)`
 `;
 export const Span = styled.div`
     padding: 0 4px;
-    font-weight: bold;
+    // font-weight: bold;
     font-size: 18px;
 `;
 export const NavItems = styled.ul`

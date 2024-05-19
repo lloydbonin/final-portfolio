@@ -7,14 +7,14 @@ export const Bio = {
     "Data Professional",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+    "Motivated by a growth mindset and a hunger for knowledge, I'm constantly seeking new ways to push boundaries and deliver high-quality results. My positive attitude fuels collaboration, and I'm energized by the prospect of making a meaningful impact alongside a dynamic team.",
+  github: "https://www.facebook.com/lloydie7",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://drive.google.com/file/d/195qyJHssInPHccbFkKb4U9VDpqoQjVnF/view?usp=sharing",
+  linkedin: "",
+  twitter: "https://twitter.com/lordbonin",
+  insta: "https://www.instagram.com/lloydiee7/",
+  facebook: "https://www.facebook.com/lloydie7/",
 };
 
 export const skills = [
@@ -206,8 +206,8 @@ export const education = [
     img: "https://firebasestorage.googleapis.com/v0/b/bookstour-27f8f.appspot.com/o/educations%2Fateneo.png?alt=media&token=d75fd2c3-83a0-4f1a-82bb-e9791fb2d6e7",
     school: "Ateneo de Davao University",
     date: "July 2020 - June 2024",
-    grade: "3.601 GPA",
-    // desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    grade: "3.601 QPI",
+    desc: "I pursued my Bachelor of Science in Data Science at Ateneo de Davao University, where I gained a comprehensive understanding of the field. My coursework included data analysis, machine learning, statistical modeling, and database management. I learned how to collect, process, and analyze large sets of data to uncover trends and insights. This program equipped me with the skills to use data effectively to solve real-world problems and make data-driven decisions. Additionally, I worked on several projects that involved real-world data, allowing me to apply my theoretical knowledge to practical situations. This hands-on experience has prepared me to handle complex data challenges in a professional setting.",
     degree: "Bachelor of Science in Data Science",
   },
   {
@@ -215,8 +215,8 @@ export const education = [
     img: "https://firebasestorage.googleapis.com/v0/b/bookstour-27f8f.appspot.com/o/educations%2Fstmary.png?alt=media&token=257908da-eab5-481e-86c7-ffac1f82b7b3",
     school: "St. Mary's College of Bansalan Inc.",
     date: "June 2018 - March 2020",
-    grade: "???",
-    // desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+    grade: "92",
+    desc: "I completed my senior high school education at St. Mary's College of Bansalan Inc., where I majored in Computer System Servicing under the Technical Vocational Livelihood (TechVoc) track. This program provided me with practical skills and knowledge in computer hardware and software maintenance, network setup, and troubleshooting. I learned how to install, configure, and maintain computer systems and networks, preparing me for various technical roles in the IT industry. The hands-on training and real-world projects I participated in were instrumental in building a solid foundation for my future studies and career in data science.",
     degree: "Technical Vocational Livelihood (TechVoc) Major in Computer System Servicing",
   },
   {
@@ -224,8 +224,8 @@ export const education = [
     img: "https://firebasestorage.googleapis.com/v0/b/bookstour-27f8f.appspot.com/o/educations%2Flibertadnat.png?alt=media&token=8efe65f0-8964-42df-9fb9-48143445d5da",
     school: "Libertad National High School",
     date: "Apr 2017 - Apr 2019",
-    grade: "???",
-    // desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+    grade: "90",
+    desc: "I attended Libertad National High School, where I completed my junior high school education. During this time, I built a strong academic foundation and developed essential skills in various subjects, preparing me for further studies in senior high school and beyond.",
     // degree: "ICSC(X), Science with Computer",
   },
   {
@@ -233,8 +233,8 @@ export const education = [
     img: "https://firebasestorage.googleapis.com/v0/b/bookstour-27f8f.appspot.com/o/educations%2Flibertadelem.png?alt=media&token=f93e5786-dc05-443f-a091-351013f65dda",
     school: "Libertad Elementary School",
     date: "Apr 2017 - Apr 2019",
-    grade: "???",
-    // desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+    grade: "90",
+    desc: "I completed my elementary education at Libertad Elementary School, where I developed fundamental skills and a strong educational foundation.",
     // degree: "ICSC(X), Science with Computer",
   }
 ];

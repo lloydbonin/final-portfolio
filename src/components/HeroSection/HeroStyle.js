@@ -131,7 +131,7 @@ export const Title = styled.div`
 
 export const TextLoop = styled.div`
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
@@ -173,14 +173,15 @@ export const ResumeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
-    max-width: 300px;
+    display: inline-block;
+    width: 80%;
+    max-width: 190px;
     text-align: center;
-    padding: 16px 0;
+    padding: 10px 0;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);

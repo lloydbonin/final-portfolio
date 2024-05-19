@@ -105,21 +105,21 @@ const Skill = styled.div`
   }
 `;
 
-const SkillTitle = styled.h2`
-  font-size: 28px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
-  margin-bottom: 20px;
-  text-align: center;
-`
+// const SkillTitle = styled.h2`
+//   font-size: 28px;
+//   font-weight: 600;
+//   color: ${({ theme }) => theme.text_secondary};
+//   margin-bottom: 20px;
+//   text-align: center;
+// `
 
-const SkillList = styled.div`
-  display: flex;
-  justify-content: center; 
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 20px;
-`
+// const SkillList = styled.div`
+//   display: flex;
+//   justify-content: center; 
+//   flex-wrap: wrap;
+//   gap: 12px;
+//   margin-bottom: 20px;
+// `
 
 const SkillItem = styled.div`
   font-size: 16px;
@@ -142,10 +142,10 @@ const SkillItem = styled.div`
   }
 `
 
-const SkillImage = styled.img`
-  width: 24px;
-  height: 24px;
-`
+// const SkillImage = styled.img`
+//   width: 24px;
+//   height: 24px;
+// `
 
 
 const SkillIcon = styled.i`
