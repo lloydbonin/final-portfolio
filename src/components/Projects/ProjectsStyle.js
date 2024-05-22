@@ -41,6 +41,7 @@ margin-top: 20px;
 
 export const Desc = styled.div`
     font-size: 18px;
+    padding-bottom: 50px;
     text-align: center;
     max-width: 600px;
     color: ${({ theme }) => theme.text_secondary};

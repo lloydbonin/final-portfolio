@@ -162,10 +162,13 @@ const Skills = () => {
     "Written & Verbal Communication",
     "Analytical Skill",
     "R (Programming Language)",
-    "Deep Learning",
     "Statistical Analysis",
     "Machine Learning",
-    "Natural Language Processing (NLP)"
+    "Natural Language Processing (NLP)",
+    "Web Development",
+    "React JS",
+    "Figma",
+    "Wordpress"
   ];
   return (
     <Container id="skills">
@@ -176,7 +179,7 @@ const Skills = () => {
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill key={skill}>
-              <SkillIcon className="fas fa-star"> {/* Adjust the icon class as needed */}</SkillIcon>
+              <SkillIcon className="fas fa-star"></SkillIcon>
               {skill}
             </Skill>
           ))}
