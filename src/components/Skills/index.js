@@ -165,7 +165,7 @@ const Skills = () => {
     "Statistical Analysis",
     "Machine Learning",
     "Natural Language Processing (NLP)",
-    "Web Development",
+    "Front End Development",
     "React JS",
     "Figma",
     "Wordpress"
