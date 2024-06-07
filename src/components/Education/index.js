@@ -74,7 +74,7 @@ const TimelineSection = styled.div`
 
 const SlideInFromLeft = styled.div`
   animation: slide-in-left 1s ease-out forwards;
-  margin-right: 700px;
+  margin-right: 500px;
   text-align: left;
   @keyframes slide-in-left {
     from {
@@ -86,11 +86,14 @@ const SlideInFromLeft = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 960px) {
+    margin-right: 0;
+  }
 `;
 
 const SlideInFromRight = styled.div`
   animation: slide-in-right 1s ease-out forwards;
-  margin-left: 700px;
+  margin-left: 500px;
   text-align: left;
   @keyframes slide-in-right {
     from {
@@ -101,6 +104,9 @@ const SlideInFromRight = styled.div`
       transform: translateX(0);
       opacity: 1;
     }
+  }
+  @media (max-width: 960px) {
+    margin-left: 0;
   }
 `;
 
@@ -113,6 +119,7 @@ const TimelineContentStyled = styled(TimelineContent)`
     justify-content: center;
     text-align: center;
     width: 100%;
+    padding: 0 10px; /* Add some padding to avoid content touching the edges */
   }
 `;
 
